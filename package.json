@@ -1,0 +1,32 @@
+{
+  "name": "typedoc-rag-extractor",
+  "version": "1.0.0",
+  "description": "Comprehensive TypeDoc JSON extractor for RAG systems with maximum information preservation",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "extract": "node dist/cli.js",
+    "test": "node --test dist/**/*.test.js",
+    "format": "prettier --write src/**/*.ts"
+  },
+  "keywords": [
+    "typedoc",
+    "rag",
+    "documentation",
+    "extraction",
+    "typescript",
+    "api"
+  ],
+  "author": "marcog83",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "prettier": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
